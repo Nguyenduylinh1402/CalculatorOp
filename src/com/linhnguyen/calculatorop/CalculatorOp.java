@@ -35,31 +35,31 @@ public class CalculatorOp extends Activity {
 		btnDiv = (Button) findViewById(R.id.btnDiv);
 		btnEqual = (Button) findViewById(R.id.btnEqual);
 		btnDel = (Button) findViewById(R.id.btnDel);
-//		btnZero.setOnClickListener(myClick);
-//		btnOne.setOnClickListener(myClick);
-//		btnTwo.setOnClickListener(myClick);
-//		btnThree.setOnClickListener(myClick);
-//		btnFour.setOnClickListener(myClick);
-//		btnFive.setOnClickListener(myClick);
-//		btnSix.setOnClickListener(myClick);
-//		btnSeven.setOnClickListener(myClick);
-//		btnEight.setOnClickListener(myClick);
-//		btnNine.setOnClickListener(myClick);
-//		btnAdd.setOnClickListener(myClick);
-//		btnSub.setOnClickListener(myClick);
-//		btnMul.setOnClickListener(myClick);
-//		btnDiv.setOnClickListener(myClick);
-//		btnEqual.setOnClickListener(myClick);
-//		btnDel.setOnClickListener(myClick);
+		btnZero.setOnClickListener(myClick);
+		btnOne.setOnClickListener(myClick);
+		btnTwo.setOnClickListener(myClick);
+		btnThree.setOnClickListener(myClick);
+		btnFour.setOnClickListener(myClick);
+		btnFive.setOnClickListener(myClick);
+		btnSix.setOnClickListener(myClick);
+		btnSeven.setOnClickListener(myClick);
+		btnEight.setOnClickListener(myClick);
+		btnNine.setOnClickListener(myClick);
+		btnAdd.setOnClickListener(myClick);
+		btnSub.setOnClickListener(myClick);
+		btnMul.setOnClickListener(myClick);
+		btnDiv.setOnClickListener(myClick);
+		btnEqual.setOnClickListener(myClick);
+		btnDel.setOnClickListener(myClick);
 
-		OnClickListener myClick = new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-
-			}
-		};
 	}
+	OnClickListener myClick = new OnClickListener() {
+		
+		@Override
+		public void onClick(View v) {
+			// TODO Auto-generated method stub
+			
+		}
+	};
 
 }
