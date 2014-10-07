@@ -35,31 +35,84 @@ public class CalculatorOp extends Activity {
 		btnDiv = (Button) findViewById(R.id.btnDiv);
 		btnEqual = (Button) findViewById(R.id.btnEqual);
 		btnDel = (Button) findViewById(R.id.btnDel);
-//		btnZero.setOnClickListener(myClick);
-//		btnOne.setOnClickListener(myClick);
-//		btnTwo.setOnClickListener(myClick);
-//		btnThree.setOnClickListener(myClick);
-//		btnFour.setOnClickListener(myClick);
-//		btnFive.setOnClickListener(myClick);
-//		btnSix.setOnClickListener(myClick);
-//		btnSeven.setOnClickListener(myClick);
-//		btnEight.setOnClickListener(myClick);
-//		btnNine.setOnClickListener(myClick);
-//		btnAdd.setOnClickListener(myClick);
-//		btnSub.setOnClickListener(myClick);
-//		btnMul.setOnClickListener(myClick);
-//		btnDiv.setOnClickListener(myClick);
-//		btnEqual.setOnClickListener(myClick);
-//		btnDel.setOnClickListener(myClick);
+		btnZero.setOnClickListener(myClick);
+		btnOne.setOnClickListener(myClick);
+		btnTwo.setOnClickListener(myClick);
+		btnThree.setOnClickListener(myClick);
+		btnFour.setOnClickListener(myClick);
+		btnFive.setOnClickListener(myClick);
+		btnSix.setOnClickListener(myClick);
+		btnSeven.setOnClickListener(myClick);
+		btnEight.setOnClickListener(myClick);
+		btnNine.setOnClickListener(myClick);
+		btnAdd.setOnClickListener(myClick);
+		btnSub.setOnClickListener(myClick);
+		btnMul.setOnClickListener(myClick);
+		btnDiv.setOnClickListener(myClick);
+		btnEqual.setOnClickListener(myClick);
+		btnDel.setOnClickListener(myClick);
 
-		OnClickListener myClick = new OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-
-			}
-		};
 	}
+
+	OnClickListener myClick = new OnClickListener() {
+
+		@Override
+		public void onClick(View v) {
+			switch (v.getId()) {
+			case R.id.btnZero:
+
+				break;
+			case R.id.btnOne:
+
+				break;
+			case R.id.btnTwo:
+
+				break;
+			case R.id.btnThree:
+
+				break;
+			case R.id.btnFour:
+
+				break;
+			case R.id.btnFive:
+
+				break;
+			case R.id.btnSix:
+
+				break;
+			case R.id.btnSeven:
+
+				break;
+			case R.id.btnEight:
+
+				break;
+			case R.id.btnNine:
+
+				break;
+			case R.id.btnAdd:
+
+				break;
+			case R.id.btnSub:
+
+				break;
+			case R.id.btnMul:
+
+				break;
+			case R.id.btnDiv:
+
+				break;
+			case R.id.btnDel:
+
+				break;
+			case R.id.btnEqual:
+
+				break;
+				
+
+			default:
+				break;
+			}
+		}
+	};
 
 }
