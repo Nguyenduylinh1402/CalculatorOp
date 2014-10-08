@@ -2,6 +2,7 @@ package com.linhnguyen.calculatorop;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -12,6 +13,10 @@ public class CalculatorOp extends Activity {
 	Button btnZero, btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix,
 			btnSeven, btnEight, btnNine, btnAdd, btnSub, btnMul, btnDiv,
 			btnEqual, btnDel;
+
+	int op = 0;
+	int result = 0;
+	int mem = 0;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -53,13 +58,82 @@ public class CalculatorOp extends Activity {
 		btnDel.setOnClickListener(myClick);
 
 	}
+
 	OnClickListener myClick = new OnClickListener() {
-		
+
 		@Override
 		public void onClick(View v) {
-			// TODO Auto-generated method stub
-			
+			Editable editable = edtResult.getText();
+			switch (v.getId()) {
+			case R.id.btnZero:
+
+				break;
+			case R.id.btnOne:
+
+				break;
+			case R.id.btnTwo:
+
+				break;
+			case R.id.btnThree:
+
+				break;
+			case R.id.btnFour:
+
+				break;
+			case R.id.btnFive:
+
+				break;
+			case R.id.btnSix:
+
+				break;
+			case R.id.btnSeven:
+
+				break;
+			case R.id.btnEight:
+
+				break;
+			case R.id.btnNine:
+
+				break;
+			case R.id.btnAdd:
+
+				break;
+			case R.id.btnSub:
+
+				break;
+			case R.id.btnMul:
+
+				break;
+			case R.id.btnDiv:
+
+				break;
+			case R.id.btnDel:
+
+				break;
+			case R.id.btnEqual:
+				// gan mem = 0;
+				break;
+
+			default:
+				break;
+			}
 		}
 	};
+
+	public int numberClick(int number) {
+		return number;
+	}
+
+	public void backSpace() {
+
+	}
+
+	public void theOperator() {
+
+	}
+
+	public void showResult() {
+
+	}
 
 }
