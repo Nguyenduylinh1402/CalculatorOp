@@ -2,6 +2,7 @@ package com.linhnguyen.calculatorop;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.text.Editable;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -12,6 +13,10 @@ public class CalculatorOp extends Activity {
 	Button btnZero, btnOne, btnTwo, btnThree, btnFour, btnFive, btnSix,
 			btnSeven, btnEight, btnNine, btnAdd, btnSub, btnMul, btnDiv,
 			btnEqual, btnDel;
+
+	int op = 0;
+	int result = 0;
+	int mem = 0;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -58,6 +63,7 @@ public class CalculatorOp extends Activity {
 
 		@Override
 		public void onClick(View v) {
+			Editable editable = edtResult.getText();
 			switch (v.getId()) {
 			case R.id.btnZero:
 
@@ -105,9 +111,8 @@ public class CalculatorOp extends Activity {
 
 				break;
 			case R.id.btnEqual:
-
+				// gan mem = 0;
 				break;
-				
 
 			default:
 				break;
